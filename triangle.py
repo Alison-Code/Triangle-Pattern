@@ -1,3 +1,4 @@
+import turtle
 p= turtle.Turtle()
 s= turtle.Screen()
 s.bgcolor("black")
@@ -11,4 +12,5 @@ while 1:
     p.right(5)
     c+=1
     if c>=360/5:
-        continue
+        break
+turtle.done()
